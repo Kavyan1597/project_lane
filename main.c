@@ -17,7 +17,7 @@ int main()
         {
             printf("\nEnter rain intensity:");
             scanf("%f",&ws);
-            wiper_state(ws);//function call to decide speed of wiper motor
+            wiper_state(ws);//function call to cide speed of wiper motor
             break;
         }
         break;
