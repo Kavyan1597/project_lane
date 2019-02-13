@@ -1,7 +1,8 @@
 language:c
 sudo:false#onlyforfasterbuilds
 compiler:
--clang
--gcc6.script:
+  -clang
+  -gcc
+script:
 -gcc-otesttest.c//wecanusegccinsteadofclangtoo
 -./test
