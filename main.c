@@ -10,7 +10,6 @@ int main()
     float ws;
     while(1)
     {
-
         printf("\nEnter engine state:");
         scanf("%u",&es);
         engine_state(es);//function call to define state of engine
@@ -45,5 +44,4 @@ int engine_state(uint8_t ES)//function definition
         {
             printf("ENGINE OFF\n");
         }
-
 }
