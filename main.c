@@ -26,7 +26,7 @@ int main()
 int wiper_state(float rain_int)//function definition
 {
    if(rain_int<=100)
-        printf("\nNO wiper, PWM=0%%\n");//depending on rain intensity the speed of wiper through pwm is controlled
+        printf("\nWiper OFF, PWM=0%%\n");//depending on rain intensity the speed of wiper through pwm is controlled
    else if(rain_int>100&&rain_int<=250)
         printf("\nLOW MODE, PWM=25%%\n");
    else if(rain_int>250&&rain_int<500)
