@@ -1,8 +1,8 @@
-language:c
-sudo:false # onlyforfasterbuilds
+language: c
+sudo: false # only for fasterbuilds
 compiler:
-  -clang
-  -gcc
+  - clang
+  - gcc
 script:
--gcc-o test test.c//wecanusegccinsteadofclangtoo
--./test
+-gcc -o test test.c//wecanusegccinsteadofclangtoo
+- ./test
