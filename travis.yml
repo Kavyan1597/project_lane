@@ -1,0 +1,7 @@
+language:c
+sudo:false#onlyforfasterbuilds
+compiler:
+-clang
+-gcc6.script:
+-gcc-otesttest.c//wecanusegccinsteadofclangtoo
+-./test
