@@ -38,7 +38,7 @@ int engine_state(uint8_t ES)//function definition
 {
     if(ES==1)
         {
-            printf("\nEngine ON");//defining engine states whether engine is on or off
+            printf("\nEngine ON\n");//defining engine states whether engine is on or off
         }
         else
         {
