@@ -3,5 +3,5 @@ sudo: false # only for faster builds
 compiler:
   - gcc
 script:
--gcc -o test.c  //wecanusegccinsteadofclangtoo
-- ./test
+-gcc -o test test.c  //wecanusegccinsteadofclangtoo
+-./test
